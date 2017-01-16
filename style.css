@@ -1,0 +1,103 @@
+.title{
+    margin-bottom: 10px;
+}
+.form-generetor1 {
+    margin-bottom: 10px;
+}
+.form-generetor2 {
+
+}
+.sub {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+}
+.sub:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+.sub:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+.form-size1 {
+
+}
+.code-img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.style-text1{
+    color: sienna;
+    font-weight: bold;
+    font-size: 16pt;
+}
+.style-text2{
+    color: orange;
+    font-weight: bold;
+}
+
+.download {
+    display: inline-block;
+    text-shadow: 1px 1px #fff;
+    text-decoration: none;
+    padding: .3em 1em;
+    border: 1px solid #aaa;
+    border-radius: 100px;
+    outline: none;
+    background: #d6dbbf no-repeat;
+    background-image:
+            linear-gradient(to left, #aaa, #aaa),
+            linear-gradient(to left, #feffe8, #feffe8),
+            linear-gradient(#feffe8, #d6dbbf);
+    background-position: calc(100% - 2.7em) 0, calc(100% - 2.7em + 1px) 0, 0 0;
+    background-size: 1px 100%, 1px 100%, auto auto;
+    overflow: hidden;
+}
+.download:after {
+    content: "\bb";
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    margin-left: 1.4em;
+    vertical-align: middle;
+    font-family: "Times","Times New Roman","serif","sans-serif","EmojiSymbols";
+    font-weight: 700;
+    font-size: 140%;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.download:hover {
+    background-color: #fdfd9f;
+    background-image:
+            linear-gradient(to left, #aaa, #aaa),
+            linear-gradient(to left, #feffe8, #feffe8),
+            linear-gradient(#fffce7, #fdfd9f);
+}
+.download:active:after {
+    bottom: -1.2em;
+    transition: .3s;
+}
+.gallery{
+    color: #0000FF;
+    font-weight: bold;
+    font-size: 17pt;
+    text-decoration: none;
+}
+.gallery2{
+    color: red;
+    font-weight: bold;
+    font-size: 17pt;
+}
+.gal-img{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.gal-text{
+    margin-bottom: 20px;
+    color: firebrick;
+    font-weight: bold;
+    font-size: 17pt;
+}
